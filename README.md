@@ -1,124 +1,85 @@
-### Global Economic and Demographic Trends Analysis
+# Global Economic and Demographic Trends Analysis
+## Overview
 
-Project Overview
+This project analyzes global economic, demographic, and health-related datasets to generate meaningful insights using Power BI. Data from multiple sources (Excel and SQL) is integrated, cleaned, transformed, and visualized to create an interactive dashboard that highlights trends across countries and regions.
 
-The objective of this project is to analyze and derive meaningful insights from global economic, demographic, and health-related datasets. The analysis integrates data from multiple sources, including Excel files and a SQL database, to provide a holistic view of population trends, GDP performance, country characteristics, and health indicators across countries.
+## Objectives
 
-Using Power BI, the project focuses on data integration, cleaning, transformation, descriptive analysis, and visualization. The final outcome is an interactive dashboard that supports data-driven decision-making by highlighting key global trends and patterns.
+Analyze global population growth and demographic patterns
 
-Business Objectives
+Compare GDP and economic performance across countries and regions
 
-Understand global population and demographic trends
+Explore relationships between economic indicators and health outcomes
 
-Analyze GDP growth and economic performance across countries
+Present insights through interactive Power BI dashboards
 
-Examine relationships between economic indicators and health metrics
-
-Provide a consolidated, visual view of country-level characteristics
-
-Enable stakeholders to identify trends, outliers, and correlations
-
-Scope of Work
-In Scope
-
-Connecting Power BI to multiple data sources (Excel & SQL)
-
-Data cleaning and transformation using Power Query
-
-Data modeling and relationship creation
-
-Descriptive statistical analysis
-
-Development of interactive dashboards and visualizations
-
-Insight generation and storytelling through data
-
-Out of Scope
-
-Predictive or machine learning models
-
-Real-time data streaming
-
-Data collection beyond provided sources
-
-Data Sources
+## Data Sources
 
 The project uses four datasets:
 
-Population Data (Excel)
+Dataset	Source	Description
+Population Data	Excel	Country-wise population statistics
+GDP Data	Excel	GDP and economic indicators
+Country Characteristics	SQL	Region, income group, classifications
+Health Indicators	SQL / Excel	Life expectancy and health metrics
+Tools and Technologies
 
-Country-wise population figures
+Power BI Desktop
 
-Historical population trends
+Microsoft Excel
 
-GDP Data (Excel)
+SQL Database
 
-GDP values by country and year
+Power Query
 
-Economic growth indicators
+DAX (Data Analysis Expressions)
 
-Country Characteristics (SQL Database)
+## Data Preparation
 
-Region, income group, and geographic attributes
+Connected Excel and SQL data sources in Power BI
 
-Health Indicators (SQL Database / Excel)
+Cleaned and transformed datasets using Power Query
 
-Life expectancy
+Removed duplicates and handled missing values
 
-Mortality and health-related metrics
+Standardized country names and data types
 
-Key Metrics & KPIs
+Created relationships between datasets
 
-Total and average population by region
+## Analysis Performed
 
-GDP and GDP per capita
+Descriptive statistical analysis
+
+Trend analysis over time
+
+Regional and country-level comparisons
+
+KPI calculations including:
+
+GDP & GDP per capita
 
 Population growth rate
 
-Life expectancy trends
+Life expectancy
 
-Regional comparisons (economic vs health outcomes)
+## Dashboard Features
 
-Tools & Technologies
+Interactive slicers for Country, Region, and Year
 
-Power BI Desktop – Data modeling, analysis, and visualization
+KPI cards for key metrics
 
-Microsoft Excel – Source data files
+Line charts for trend analysis
 
-SQL Database – Country and health-related datasets
+Bar charts and maps for comparisons
 
-Power Query – Data cleaning and transformation
+Drill-down capability for detailed insights
 
-Dashboard Features
+## Key Insights
 
-Interactive filters (Country, Region, Year)
+Population growth varies significantly by region
 
-KPI cards for high-level metrics
+Higher GDP per capita generally aligns with better health outcomes
 
-Trend analysis using line charts
+Developing regions show faster population growth
 
-Comparative analysis using bar and map visuals
-
-Drill-down capability for country-level insights
-
-Data Processing & Transformation
-
-Removal of duplicates and null values
-
-Standardization of country names and codes
-
-Data type corrections
-
-Creation of calculated columns and measures (DAX)
-
-Establishment of relationships across datasets
-
-Expected Outcomes
-
-Clear visibility into global economic and demographic patterns
-
-Easy comparison across countries and regions
-
-Actionable insights for policy makers, researchers, and business analysts
-
-A reusable Power BI data model for future analysis
+Economic performance differs widely within the same region
