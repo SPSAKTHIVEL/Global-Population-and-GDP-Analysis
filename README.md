@@ -1,6 +1,4 @@
-Global Economic and Demographic Trends Analysis
-
-Business Requirement Document (BRD)
+### Global Economic and Demographic Trends Analysis
 
 Project Overview
 
